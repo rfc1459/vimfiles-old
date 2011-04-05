@@ -279,8 +279,11 @@ set ttymouse=xterm2
 "set hidden
 
 "colorscheme and background - DARK
-colorscheme default
-set bg=dark
+if !has('gui_running')
+    let g:solarized_termcolors=16
+    set background=dark
+    colorscheme solarized
+endif
 
 silent! nmap <silent> <Leader>p :NERDTreeToggle<CR>
 nnoremap <silent> <C-f> :call FindInNERDTree()<CR>
