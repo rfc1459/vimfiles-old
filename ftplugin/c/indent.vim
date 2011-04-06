@@ -1,2 +1,5 @@
-set cinoptions={.5s,:.5s,+.5s,t0,g0,^-2,e-2,n-2,p2s,(0,=.5s
+setlocal shiftwidth=4
+setlocal softtabstop=4
+setlocal expandtab
+set cinoptions=>s,{0,:s,+s,t0,g0,^0,e0,n0,ps,(0,=s
 set cindent
