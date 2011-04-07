@@ -67,11 +67,11 @@
   url = git://github.com/greyblake/vim-preview.git
   ignore = dirty
 [submodule "bundle/vim-git"]
-	path = bundle/vim-git
-	url = git://github.com/tpope/vim-git.git
+  path = bundle/vim-git
+  url = git://github.com/tpope/vim-git.git
 [submodule "bundle/vim-colors-solarized"]
-	path = bundle/vim-colors-solarized
-	url = git://github.com/altercation/vim-colors-solarized.git
+  path = bundle/vim-colors-solarized
+  url = git://github.com/altercation/vim-colors-solarized.git
 [submodule "bundle/vim-mercurial"]
-	path = bundle/vim-mercurial
-	url = git://github.com/DasIch/vim-mercurial.git
+  path = bundle/vim-mercurial
+  url = git://github.com/rfc1459/vim-mercurial.git
