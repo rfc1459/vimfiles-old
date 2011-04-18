@@ -31,7 +31,8 @@ h1. Bundled Plugins
 * "vim-ruby":https://github.com/vim-ruby/vim-ruby/wiki - syntax highlight, smart identation, auto-complete for Ruby
 * "vim-textobj-rubyblock":http://vimcasts.org/blog/2010/12/a-text-object-for-ruby-blocks/ - smart block selection in Ruby code
 * "vim-colors-solarized":https://github.com/altercation/vim-colors-solarized - a really cool color scheme
-* "vim-mercurial":https://github.com/DasIch/vim-mercurial.git - syntax highlight for Mercurial commit messages
+* "vim-mercurial":https://github.com/DasIch/vim-mercurial - syntax highlight for Mercurial commit messages
+* "gitolite.vim":https://github.com/tmatilai/gitolite.vim - syntax highlight for gitolite configuration files
 
 h1. Usage
 
