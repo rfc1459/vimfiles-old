@@ -75,3 +75,6 @@
 [submodule "bundle/vim-mercurial"]
   path = bundle/vim-mercurial
   url = git://github.com/rfc1459/vim-mercurial.git
+[submodule "bundle/gitolite"]
+  path = bundle/gitolite
+  url = git://github.com/tmatilai/gitolite.vim.git
