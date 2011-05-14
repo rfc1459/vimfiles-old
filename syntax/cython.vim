@@ -29,11 +29,11 @@ endif
 syn keyword cythonStatement     cdef cpdef typedef ctypedef sizeof
 syn keyword cythonType          int long short float double char object void
 syn keyword cythonType          signed unsigned
-syn keyword cythonType          size_t
+syn keyword cythonType          size_t Py_ssize_t
 syn keyword cythonType          bint
 syn keyword cythonStructure     struct union enum
 syn keyword cythonPrecondit     include cimport
-syn keyword cythonAccess        public private property readonly extern
+syn keyword cythonAccess        public private property readonly extern api
 syn keyword cythonGilAttrs      gil nogil
 " If someome wants Python's built-ins highlighted probably he
 " also wants cython's built-ins highlighted

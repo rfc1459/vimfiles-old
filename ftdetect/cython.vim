@@ -1,2 +1,2 @@
-au BufNewFile,BufRead {*.pyx,*.pxd} set filetype=cython
+au BufNewFile,BufRead {*.pyx,*.pxd,*.pxi} set filetype=cython
 
