@@ -30,6 +30,7 @@ syn keyword cythonStatement     cdef cpdef typedef ctypedef sizeof
 syn keyword cythonType          int long short float double char object void
 syn keyword cythonType          signed unsigned
 syn keyword cythonType          size_t
+syn keyword cythonType          bint
 syn keyword cythonStructure     struct union enum
 syn keyword cythonPrecondit     include cimport
 syn keyword cythonAccess        public private property readonly extern
