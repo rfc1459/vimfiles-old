@@ -29,9 +29,11 @@ endif
 syn keyword cythonStatement     cdef cpdef typedef ctypedef sizeof
 syn keyword cythonType          int long short float double char object void
 syn keyword cythonType          signed unsigned
+syn keyword cythonType          size_t
 syn keyword cythonStructure     struct union enum
 syn keyword cythonPrecondit     include cimport
 syn keyword cythonAccess        public private property readonly extern
+syn keyword cythonGilAttrs      gil nogil
 " If someome wants Python's built-ins highlighted probably he
 " also wants cython's built-ins highlighted
 if exists("python_highlight_builtins") || exists("cython_highlight_builtins")
@@ -61,6 +63,7 @@ if version >= 508 || !exists("did_cython_syntax_inits")
   HiLink cythonStructure        Structure
   HiLink cythonPrecondit        PreCondit
   HiLink cythonAccess           cythonStatement
+  HiLink cythonGilAttrs         cythonStatement
   if exists("python_highlight_builtins") || exists("cython_highlight_builtins")
       HiLink cythonBuiltin      Function
   endif
