@@ -43,9 +43,23 @@ endif
 
 " This deletes "from" from the keywords and re-adds it as a
 " match with lower priority than cythonForFrom
-syn clear   pythonPreCondit
-syn keyword pythonPreCondit     import
-syn match   pythonPreCondit     "from"
+" Check what version of python.vim we're dealing with
+redir @a
+silent! exec 'syntax list '
+redir END
+let syn_full = "\n".@a
+
+if match(syn_full, '.*pythonPreCondit.*') > -1
+    " Upstream (svn.python.org) python.vim
+    syn clear   pythonPreCondit
+    syn keyword pythonPreCondit import
+    syn match   pythonPreCondit "from"
+else
+    " Bundled python.vim
+    syn clear   pythonInclude
+    syn keyword pythonInclude import
+    syn match   pythonInclude "from"
+endif
 
 " With "for[^:]*\zsfrom" VIM does not match "for" anymore, so
 " I used the slower "\@<=" form
