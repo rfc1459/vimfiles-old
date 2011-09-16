@@ -78,3 +78,6 @@
 [submodule "bundle/gitolite"]
   path = bundle/gitolite
   url = git://github.com/tmatilai/gitolite.vim.git
+[submodule "bundle/vim-protobuf-syntax"]
+	path = bundle/vim-protobuf-syntax
+	url = git://github.com/jdevera/vim-protobuf-syntax
