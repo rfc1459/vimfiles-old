@@ -22,7 +22,7 @@ h1. Bundled Plugins
 * "rails":http://www.vim.org/scripts/script.php?script_id=1567 - lot's of tools to make it easier to manage your Rails projects
 * "supertab":http://www.vim.org/scripts/script.php?script_id=1643 - pseudo auto-complete with tab
 * "surround":http://www.vim.org/scripts/script.php?script_id=1697 - add, change, remove surrounding parentheses, brackets, quotes, etc
-* "syntastic":http://www.vim.org/scripts/script.php?script_id=2736 - checks for syntax errors in many languages
+* "syntastic":https://github.com/kongo2002/syntastic/tree/cpp_autoload - checks for syntax errors in many languages
 * "taglist_45":http://www.vim.org/scripts/script.php?script_id=273 - uses ctags to lay out source files structure
 * "textile":http://www.vim.org/scripts/script.php?script_id=2305 - syntax highlight for Textile
 * "vim-coffee-script":https://github.com/kchmck/vim-coffee-script - syntax highlight for Coffee Script
