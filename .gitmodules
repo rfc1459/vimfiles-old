@@ -81,3 +81,6 @@
 [submodule "bundle/vim-protobuf-syntax"]
   path = bundle/vim-protobuf-syntax
   url = git://github.com/jdevera/vim-protobuf-syntax
+[submodule "bundle/vimerl"]
+  path = bundle/vimerl
+  url = git://github.com/oscarh/vimerl.git

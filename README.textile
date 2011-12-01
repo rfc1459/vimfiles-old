@@ -34,6 +34,7 @@ h1. Bundled Plugins
 * "vim-mercurial":https://github.com/DasIch/vim-mercurial - syntax highlight for Mercurial commit messages
 * "gitolite.vim":https://github.com/tmatilai/gitolite.vim - syntax highlight for gitolite configuration files
 * "vim-protobuf-syntax":https://github.com/jdevera/vim-protobuf-syntax - syntax highlight for Google Protocol Buffer definition files
+* "vimerl":https://github.com/oscarh/vimerl - a set of Erlang plugins for Vim
 
 h1. Usage
 
