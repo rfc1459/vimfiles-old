@@ -110,10 +110,6 @@ set statusline+=%*
 
 "set statusline+=%{StatuslineLongLineWarning()}
 "
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-
 "display a warning if &paste is set
 set statusline+=%#error#
 set statusline+=%{&paste?'[paste]':''}
@@ -293,9 +289,6 @@ if !has('gui_running')
     colorscheme solarized
 endif
 
-silent! nmap <silent> <Leader>p :NERDTreeToggle<CR>
-nnoremap <silent> <C-f> :call FindInNERDTree()<CR>
-
 "make <c-l> clear the highlight as well as redraw
 nnoremap <C-L> :nohls<CR><C-L>
 inoremap <C-L> <C-O>:nohls<CR>
@@ -305,9 +298,6 @@ silent! nmap <silent> <Leader>X :TlistToggle<CR>
 
 "map Q to something useful
 noremap Q gq
-
-"mark syntax errors with :signs
-let g:syntastic_enable_signs=1
 
 " Highlight python builtins
 let g:python_highlight_builtins=1
@@ -360,8 +350,8 @@ endfunction
 nmap <Tab> gt
 nmap <S-Tab> gT
 
-"Key mapping for textmate-like indentation
-nmap <D-[> <<
-nmap <D-]> >>
-vmap <D-[> <gv
-vmap <D-]> >gv
+"Key mappings for Command-T
+cnoremap %% <C-R>=expand('%:h').'/'<cr>
+
+map <Leader>f :CommandTFlush<cr>\|:CommandT<cr>
+map <Leader>F :CommandTFlush<cr>\|:CommandT %%<cr>
