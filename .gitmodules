@@ -17,21 +17,28 @@
 [submodule "bundle/vim-git"]
   path = bundle/vim-git
   url = git://github.com/tpope/vim-git.git
+  ignore = dirty
 [submodule "bundle/vim-colors-solarized"]
   path = bundle/vim-colors-solarized
   url = git://github.com/altercation/vim-colors-solarized.git
+  ignore = dirty
 [submodule "bundle/vim-mercurial"]
   path = bundle/vim-mercurial
   url = git://github.com/rfc1459/vim-mercurial.git
+  ignore = dirty
 [submodule "bundle/gitolite"]
   path = bundle/gitolite
   url = git://github.com/tmatilai/gitolite.vim.git
+  ignore = dirty
 [submodule "bundle/vim-protobuf-syntax"]
   path = bundle/vim-protobuf-syntax
   url = git://github.com/jdevera/vim-protobuf-syntax
+  ignore = dirty
 [submodule "bundle/vimerl"]
   path = bundle/vimerl
   url = git://github.com/oscarh/vimerl.git
+  ignore = dirty
 [submodule "bundle/command-t"]
-	path = bundle/command-t
-	url = git://git.wincent.com/command-t.git
+  path = bundle/command-t
+  url = git://git.wincent.com/command-t.git
+  ignore = dirty
