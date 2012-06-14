@@ -42,3 +42,7 @@
   path = bundle/command-t
   url = git://git.wincent.com/command-t.git
   ignore = dirty
+[submodule "bundle/vim-json"]
+  path = bundle/vim-json
+  url = git://github.com/elzr/vim-json.git
+  ignore = dirty
