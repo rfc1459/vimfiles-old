@@ -284,9 +284,8 @@ set ttymouse=xterm2
 
 "colorscheme and background - DARK
 if !has('gui_running')
-    let g:solarized_termcolors=16
     set background=dark
-    colorscheme solarized
+    colorscheme Tomorrow-Night
 endif
 
 "make <c-l> clear the highlight as well as redraw
@@ -355,3 +354,6 @@ cnoremap %% <C-R>=expand('%:h').'/'<cr>
 
 map <Leader>f :CommandTFlush<cr>\|:CommandT<cr>
 map <Leader>F :CommandTFlush<cr>\|:CommandT %%<cr>
+
+"Common abbreviations
+iabbrev __UUID__ <C-R>=matchstr(system('uuidgen'), "[^\n\r]*")<CR>

@@ -36,7 +36,6 @@ Bundled Plugins
    quotes, etc
  * [taglist\_45][taglist-45] - uses ctag to lay out source files structure
  * [textile][] - syntax highlight for Textile
- * [vim-colors-solarized][solarized] - a really cool color scheme
  * [vim-mercurial][mercurial] - syntax highlight for Mercurial commit messages
  * [gitolite.vim][gitolite] - syntax highlight for gitolite configuration
    files
@@ -45,6 +44,7 @@ Bundled Plugins
  * [vimerl][] - a set of Erlang plugins for Vim
  * [Command-T][] - fuzzy filename search plugin (lost in subspace a few
    commits ago)
+ * [tomorrow-theme][tomorrow] - yet another nice color theme
 
 
 Usage
@@ -127,7 +127,6 @@ As for Mac OS X and Windows, you're on your own. Have fun.
 Vim? WTF?
 ---------
 
-
 Visit the following sites to learn more about Vim:
 
  * http://vimcasts.org
@@ -151,9 +150,9 @@ Credits
 [surround]: http://www.vim.org/scripts/script.php?script_id=1697
 [taglist-45]: http://www.vim.org/scripts/script.php?script_id=273
 [textile]: http://www.vim.org/scripts/script.php?script_id=2305
-[solarized]: https://github.com/altercation/vim-colors-solarized
 [mercurial]: https://github.com/DasIch/vim-mercurial
 [gitolite]: https://github.com/tmatilai/gitolite.vim
 [protobuf]: https://github.com/jdevera/vim-protobuf-syntax
 [vimerl]: https://github.com/oscarh/vimerl
 [Command-T]: https://wincent.com/products/command-t
+[tomorrow]: https://github.com/chriskempson/tomorrow-theme

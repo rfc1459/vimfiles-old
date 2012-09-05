@@ -2,7 +2,7 @@
 set t_Co=256
 
 set background=light
-colorscheme solarized
+colorscheme Tomorrow
 set guitablabel=%M%t
 
 "turn off needless toolbar and scrollbars, thanks
