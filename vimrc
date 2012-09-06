@@ -266,6 +266,9 @@ set scrolloff=3
 set sidescrolloff=7
 set sidescroll=1
 
+"update runtime path
+set rtp+=$GOROOT/misc/vim
+
 "load ftplugins and indent files
 filetype plugin on
 filetype indent on
@@ -284,8 +287,8 @@ set ttymouse=xterm2
 
 "colorscheme and background - DARK
 if !has('gui_running')
-    set background=dark
     colorscheme Tomorrow-Night
+    set background=dark
 endif
 
 "make <c-l> clear the highlight as well as redraw

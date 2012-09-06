@@ -1,8 +1,8 @@
 "tell the term has 256 colors
 set t_Co=256
 
-set background=light
 colorscheme Tomorrow
+set background=light
 set guitablabel=%M%t
 
 "turn off needless toolbar and scrollbars, thanks
