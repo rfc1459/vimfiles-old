@@ -45,3 +45,12 @@
 [submodule "bundle/vim-golang"]
   path = bundle/vim-golang
   url = git://github.com/jnwhiteh/vim-golang.git
+  ignore = dirty
+[submodule "bundle/vim-transpose"]
+  path = bundle/vim-transpose
+  url = git://github.com/salsifis/vim-transpose.git
+  ignore = dirty
+[submodule "bundle/vim-gitgutter"]
+  path = bundle/vim-gitgutter
+  url = git://github.com/airblade/vim-gitgutter.git
+  ignore = dirty
