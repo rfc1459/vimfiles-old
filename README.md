@@ -46,6 +46,7 @@ Bundled Plugins
    commits ago)
  * [tomorrow-theme][tomorrow] - yet another nice color theme
  * [vim-transpose][transpose] - transpose blocks of text
+ * [vim-elixir][elixir] - syntax highlight for Elixir files
 
 
 Usage
@@ -158,3 +159,4 @@ Credits
 [Command-T]: https://wincent.com/products/command-t
 [tomorrow]: https://github.com/chriskempson/tomorrow-theme
 [transpose]: https://github.com/salsifis/vim-transpose
+[elixir]: https://github.com/elixir-lang/vim-elixir
