@@ -46,7 +46,6 @@ Bundled Plugins
    commits ago)
  * [tomorrow-theme][tomorrow] - yet another nice color theme
  * [vim-transpose][transpose] - transpose blocks of text
- * [vim-gitgutter][gitgutter] - show inline git diffs in the gutter
 
 
 Usage
@@ -159,4 +158,3 @@ Credits
 [Command-T]: https://wincent.com/products/command-t
 [tomorrow]: https://github.com/chriskempson/tomorrow-theme
 [transpose]: https://github.com/salsifis/vim-transpose
-[gitgutter]: https://github.com/airblade/vim-gitgutter
