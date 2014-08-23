@@ -360,3 +360,6 @@ map <Leader>F :CommandTFlush<cr>\|:CommandT %%<cr>
 
 "Common abbreviations
 iabbrev __UUID__ <C-R>=matchstr(system('uuidgen'), "[^\n\r]*")<CR>
+
+" Disable double-quotes concealing in JSON files
+let g:vim_json_syntax_conceal = 0
