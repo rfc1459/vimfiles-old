@@ -42,15 +42,15 @@
   path = bundle/vim-json
   url = git://github.com/elzr/vim-json.git
   ignore = dirty
-[submodule "bundle/vim-golang"]
-  path = bundle/vim-golang
-  url = git://github.com/jnwhiteh/vim-golang.git
-  ignore = dirty
 [submodule "bundle/vim-transpose"]
   path = bundle/vim-transpose
   url = git://github.com/salsifis/vim-transpose.git
   ignore = dirty
-[submodule "bundle/vim-elixir"]
-  path = bundle/vim-elixir
-  url = git://github.com/elixir-lang/vim-elixir.git
+[submodule "bundle/css"]
+  path = bundle/css
+  url = git://github.com/JulesWang/css.vim.git
+  ignore = dirty
+[submodule "bundle/vim-go"]
+  path = bundle/vim-go
+  url = git://github.com/fatih/vim-go.git
   ignore = dirty
