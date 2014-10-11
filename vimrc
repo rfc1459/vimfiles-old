@@ -285,10 +285,14 @@ set ttymouse=xterm2
 "lots of memory, and I DON'T WANT TO RESTART MY EDITOR.
 "set hidden
 
-"colorscheme and background - DARK
+" Switch color scheme accordingingly if we're not in a GUI
 if !has('gui_running')
-    colorscheme Tomorrow-Night
     set background=dark
+    let base16colorspace=256
+    colorscheme base16-eighties
+else
+    set background=light
+    colorscheme base16-default
 endif
 
 "make <c-l> clear the highlight as well as redraw
