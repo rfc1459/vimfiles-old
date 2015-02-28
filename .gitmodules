@@ -10,10 +10,6 @@
   path = bundle/textile
   url = git://github.com/timcharper/textile.vim.git
   ignore = dirty
-[submodule "bundle/scss-syntax"]
-  path = bundle/scss-syntax
-  url = http://github.com/cakebaker/scss-syntax.vim.git
-  ignore = dirty
 [submodule "bundle/vim-git"]
   path = bundle/vim-git
   url = git://github.com/tpope/vim-git.git
@@ -25,14 +21,6 @@
 [submodule "bundle/gitolite"]
   path = bundle/gitolite
   url = git://github.com/tmatilai/gitolite.vim.git
-  ignore = dirty
-[submodule "bundle/vim-protobuf-syntax"]
-  path = bundle/vim-protobuf-syntax
-  url = git://github.com/jdevera/vim-protobuf-syntax
-  ignore = dirty
-[submodule "bundle/vimerl"]
-  path = bundle/vimerl
-  url = git://github.com/oscarh/vimerl.git
   ignore = dirty
 [submodule "bundle/command-t"]
   path = bundle/command-t
