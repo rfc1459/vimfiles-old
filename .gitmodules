@@ -14,10 +14,6 @@
   path = bundle/vim-git
   url = git://github.com/tpope/vim-git.git
   ignore = dirty
-[submodule "bundle/vim-mercurial"]
-  path = bundle/vim-mercurial
-  url = git://github.com/rfc1459/vim-mercurial.git
-  ignore = dirty
 [submodule "bundle/gitolite"]
   path = bundle/gitolite
   url = git://github.com/tmatilai/gitolite.vim.git
